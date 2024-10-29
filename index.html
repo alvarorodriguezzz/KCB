@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" /> 
+</head>
+
+<body>
+
+    <custom-search>
+        <div class="sticky">
+            <div class="flex p-10 shadow-md min-h-60px">
+                <button class="menu-toggle transparent">≡</button>
+                <span class="logo">
+                    <span class="logo-item">K</span>
+                    <span class="logo-item">C</span>
+                    <span class="logo-item">B</span>
+                </span>
+                <div class="sidebar">
+                    <a href="index.html"><i class="fa fa-home"></i> Home</a>
+                    <a href="news.html"><i class="fa fa-newspaper"></i> News</a>
+                    <a href="us.html"><i class="fa fa-bullhorn"></i> US Election</a>
+                    <a href="sports.html"><i class="fa fa-futbol"></i> Sport</a>
+                    <a href="#"><i class="fa fa-briefcase"></i> Business</a>
+                    <a href="innovation.html"><i class="fa fa-lightbulb"></i> Innovation</a>
+                    <a href="#"><i class="fa fa-palette"></i> Culture</a>
+                    <a href="#"><i class="fa fa-globe"></i> Travel</a>
+                    <a href="#"><i class="fa fa-globe"></i> Earth</a>
+                    <a href="#"><i class="fa fa-globe"></i> Video</a>
+                    <a href="#"><i class="fa fa-globe"></i> Live</a>
+                </div>
+                <button class="dialog-search transparent">🔍</button>
+            </div>
+        </div>
+
+        <div class="bar">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="news.html" class="nav-link">News</a></li>
+                    <li><a href="us.html" class="nav-link">US Election</a></li>
+                    <li><a href="sports.html" class="nav-link">Sport</a></li>
+                    <li><a href="#" class="nav-link">Business</a></li>
+                    <li><a href="innovation.html" class="nav-link">Innovation</a></li>
+                    <li><a href="#" class="nav-link">Culture</a></li>
+                    <li><a href="#" class="nav-link">Arts</a></li>
+                    <li><a href="#" class="nav-link">Travel</a></li>
+                    <li><a href="#" class="nav-link">Earth</a></li>
+                    <li><a href="#" class="nav-link">Video</a></li>
+                    <li><a href="#" class="nav-link">Live</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <dialog>
+            <button class="close-btn">🗙</button>
+            <h1>Search</h1>
+            <input type="search" id="site-search" name="q" />
+
+            <template>
+                <li>
+                    <div class="flex flex-col items-center card">
+                        <img class="object-cover item-image" src="https://flowbite.com/docs/images/blog/image-4.jpg">
+                        <div class="flex flex-col justify-between">
+                            <h5 class="item-title">
+                                <a href="article.html?id={id}">
+                                    {value}
+                                </a>
+                            </h5>
+                            <p class="item-description">Here are the biggest enterprise technology acquisitions of 2021
+                                so
+                                far, in reverse chronological order.
+                            </p>
+                            <relative-time time="Wed Oct 16 2024 11:12:41 GMT+0200" />
+                        </div>
+                    </div>
+                </li>
+            </template>
+
+            <ul id="search-results">
+            </ul>
+        </dialog>
+    </custom-search>
+
+    <div class="mega-cont" id="news-container">
+        <div class="item-contenedor1"></div>
+        <div class="item-contenedor2"></div>
+        <div class="item-contenedor3"></div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="main.js"></script>

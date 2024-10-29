@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    
+    <custom-search>
+        <div class="flex p-10 shadow-md min-h-60px">
+            <button class="menu-toggle transparent">≡</button>
+            <span class="logo">
+                <span class="logo-item">K</span>
+                <span class="logo-item">C</span>
+                <span class="logo-item">B</span>
+            </span>
+            <div class="sidebar">
+              <a href="#"><i class="fa fa-home"></i> Home</a>
+              <a href="#"><i class="fa fa-newspaper"></i> News</a>
+              <a href="#"><i class="fa fa-bullhorn"></i> US Election</a>
+              <a href="#"><i class="fa fa-futbol"></i> Sport</a>
+              <a href="#"><i class="fa fa-briefcase"></i> Business</a>
+              <a href="#"><i class="fa fa-lightbulb"></i> Innovation</a>
+              <a href="#"><i class="fa fa-palette"></i> Culture</a>
+              <a href="#"><i class="fa fa-globe"></i> Travel</a>
+            </div>
+            <button class="dialog-search transparent">🔍</button>
+        </div>
+        <dialog>
+            <button class="close-btn">🗙</button>
+            <h1>Search</h1>
+            <input type="search" id="site-search" name="q" />
+    
+            <template>
+                <li>
+                    <div class="flex flex-col items-center card">
+                        <img class="object-cover item-image" src="https://flowbite.com/docs/images/blog/image-4.jpg">
+                        <div class="flex flex-col justify-between">
+                            <h5 class="item-title">
+                                <a href="article.html?id={id}">
+                                    {value}
+                                </a>
+                            </h5>
+                            <p class="item-description">Here are the biggest enterprise technology acquisitions of 2021 so
+                                far, in reverse chronological order.
+                            </p>
+                            <relative-time time="Wed Oct 16 2024 11:12:41 GMT+0200" />
+                        </div>
+                    </div>
+                </li>
+            </template>
+    
+            <ul id="search-results">
+            </ul>
+        </dialog>
+    </custom-search>
+    
+    <main>
+        <custom-article>
+            <article class="block">
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</h1>
+                <relative-time time="1729250766363"></relative-time>
+                <img src="https://placehold.co/768x400/EEE/31343C">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </article>
+        </custom-article>
+    </main>
+
+</body>
+<script src="main.js"></script>
+</html>
+
+
+
+
