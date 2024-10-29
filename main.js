@@ -84,7 +84,7 @@ const articles = [
       "title": "Chinese cybersecurity association urges review of Intel products",
       "description": "The Cybersecurity Association of China (CSAC) has urged a security review of Intel products sold in the country, claiming the US semiconductor firm poses ongoing threats to China’s national security and interests.",
       "date": "2024-10-01T10:22:56Z",
-      "category": "Technology"
+      "category": "Business"
     },
     {
       "id": 6,
@@ -124,7 +124,7 @@ const articles = [
       "title": "Chinese cybersecurity association urges review of Intel products",
       "description": "The Cybersecurity Association of China (CSAC) has urged a security review of Intel products sold in the country, claiming the US semiconductor firm poses ongoing threats to China’s national security and interests.",
       "date": "2024-10-01T10:22:56Z",
-      "category": "Technology"
+      "category": "Business"
     },
     {
       "id": 11,
@@ -164,7 +164,7 @@ const articles = [
       "title": "Chinese cybersecurity association urges review of Intel products",
       "description": "The Cybersecurity Association of China (CSAC) has urged a security review of Intel products sold in the country, claiming the US semiconductor firm poses ongoing threats to China’s national security and interests.",
       "date": "2024-10-01T10:22:56Z",
-      "category": "Technology"
+      "category": "Bunisses"
     },
     {
         "id": 16,
@@ -213,6 +213,134 @@ const articles = [
         "description": "A recent poll shows the race between Biden and Trump narrowing, with key issues like healthcare and the economy in focus.",
         "date": "2024-10-18T08:00:00Z",
         "category": "US Election"
+      },
+      {
+        "id": 35,
+        "image": "img/final_soccer.jfif",
+        "title": "Dramática Final de la Copa Europea con Gol de Último Minuto",
+        "description": "El equipo de Barcelona se coronó campeón tras un gol en los últimos segundos, en un partido que mantuvo a los fanáticos al borde de sus asientos.",
+        "date": "2024-10-29T20:45:00Z",
+        "category": "sports"
+      },
+      {
+        "id": 36,
+        "image": "img/maraton.jfif",
+        "title": "Corredora Keniana Rompe Récord Mundial en la Maratón de Nueva York",
+        "description": "Con un tiempo impresionante, la corredora keniana superó el récord mundial, llevando la carrera a otro nivel de exigencia y resistencia.",
+        "date": "2024-10-28T09:00:00Z",
+        "category": "sports"
+      },
+      {
+        "id": 37,
+        "image": "img/nba.jfif",
+        "title": "Estrella de la NBA Regresa a las Canchas Tras Lesión de Rodilla",
+        "description": "La figura de los Lakers, recuperada de su lesión, volvió con una actuación estelar, anotando 35 puntos en su primer partido de la temporada.",
+        "date": "2024-10-27T18:30:00Z",
+        "category": "sports"
+      },
+      {
+        "id": 38,
+        "image": "img/tennis_final.jfif",
+        "title": "Histórico: Jugadora de 17 Años Gana su Primer Grand Slam en Wimbledon",
+        "description": "La joven promesa del tenis internacional venció a la favorita en una final de Wimbledon inolvidable, convirtiéndose en la campeona más joven en décadas.",
+        "date": "2024-10-26T16:00:00Z",
+        "category": "sports"
+      },
+      {
+        "id": 39,
+        "image": "img/formula1.jfif",
+        "title": "Piloto Mexicano Gana el Gran Premio de Mónaco en la Fórmula 1",
+        "description": "El piloto sorprendió al mundo al conseguir su primera victoria en Mónaco, en una carrera llena de giros inesperados y adelantamientos.",
+        "date": "2024-10-25T13:45:00Z",
+        "category": "sports"
+      },
+      {
+        "id": 40,
+        "image": "img/art_festival.jfif",
+        "title": "Festival Internacional de Arte Callejero Deslumbra en Berlín",
+        "description": "Artistas de más de 20 países se reunieron en Berlín para transformar las calles en una galería de arte a cielo abierto, explorando temas de diversidad y cambio climático.",
+        "date": "2024-10-28T17:00:00Z",
+        "category": "Culture"
+      },
+      {
+        "id": 41,
+        "image": "img/film_awards.jfif",
+        "title": "Película Independiente Gana Gran Premio en el Festival de Cannes",
+        "description": "Un film experimental que explora la vida en comunidades rurales sorprendió al jurado y se llevó el premio mayor en Cannes, consolidando su lugar en el cine contemporáneo.",
+        "date": "2024-10-27T21:30:00Z",
+        "category": "Culture"
+      },
+      {
+        "id": 42,
+        "image": "img/poetry_slam.jfif",
+        "title": "Poetry Slam Internacional Promueve el Activismo Social en México",
+        "description": "Poetas de todo el mundo se reunieron en Ciudad de México para recitar versos sobre justicia social y derechos humanos, en un evento que capturó la atención de miles.",
+        "date": "2024-10-26T19:00:00Z",
+        "category": "Culture"
+      },
+      {
+        "id": 43,
+        "image": "img/ballet.jfif",
+        "title": "Nueva Versión de El Lago de los Cisnes Revoluciona el Ballet Clásico",
+        "description": "Una compañía de danza moderna presentó una adaptación innovadora de El Lago de los Cisnes, combinando elementos tecnológicos y contemporáneos en una puesta en escena única.",
+        "date": "2024-10-25T20:00:00Z",
+        "category": "Culture"
+      },
+      {
+        "id": 44,
+        "image": "img/museum_exhibit.jfif",
+        "title": "Exposición de Arte Digital Atrae Multitudes en Tokio",
+        "description": "La nueva exposición en Tokio combina realidad aumentada y arte digital, permitiendo a los visitantes interactuar directamente con las obras, lo que ha atraído a miles de curiosos.",
+        "date": "2024-10-24T11:00:00Z",
+        "category": "Culture"
+      },
+      {
+        "id": 45,
+        "image": "img/ai_research.jfif",
+        "title": "Investigadores Desarrollan IA Capaz de Predecir Terremotos",
+        "description": "Un equipo de científicos ha creado un sistema de inteligencia artificial que analiza patrones sísmicos para predecir terremotos con una precisión nunca antes vista.",
+        "date": "2024-10-29T10:00:00Z",
+        "category": "Innovation"
+      },
+      {
+        "id": 46,
+        "image": "img/vr_classroom.jfif",
+        "title": "Escuelas Implementan Realidad Virtual para Clases de Historia",
+        "description": "Un innovador programa de educación en realidad virtual permite a estudiantes experimentar momentos históricos de forma inmersiva, revolucionando la forma de aprender historia.",
+        "date": "2024-10-28T13:30:00Z",
+        "category": "Innovation"
+      },
+      {
+        "id": 47,
+        "image": "img/biodegradable_plastic.jfif",
+        "title": "Científicos Crean Plástico Biodegradable que se Disuelve en Agua",
+        "description": "Este nuevo material biodegradable promete reducir la contaminación plástica, ya que puede disolverse en agua sin dañar el medio ambiente.",
+        "date": "2024-10-27T08:00:00Z",
+        "category": "Innovation"
+      },
+      {
+        "id": 48,
+        "image": "img/3dprinted_houses.jfif",
+        "title": "Casas Impresas en 3D Ofrecen Solución a la Crisis de Vivienda",
+        "description": "Una empresa de tecnología ha construido un barrio entero de casas impresas en 3D en menos de un mes, ofreciendo una solución económica y rápida a la falta de vivienda.",
+        "date": "2024-10-26T15:00:00Z",
+        "category": "Innovation"
+      },
+      {
+        "id": 49,
+        "image": "img/quantum_computer.jfif",
+        "title": "Computadora Cuántica Logra Romper un Récord de Velocidad en Cálculos",
+        "description": "El avance en la computación cuántica ha permitido resolver problemas matemáticos complejos en segundos, marcando un hito en la tecnología de la información.",
+        "date": "2024-10-25T09:00:00Z",
+        "category": "Innovation"
+      },
+      {
+        "id": 50,
+        "image": "img/hologram_meeting.jfif",
+        "title": "Reuniones Holográficas se Vuelven Comunes en Empresas Globales",
+        "description": "Las reuniones holográficas permiten la interacción en 3D en tiempo real, revolucionando la comunicación en empresas con equipos distribuidos por todo el mundo.",
+        "date": "2024-10-24T18:00:00Z",
+        "category": "Innovation"
       }
   ]
 
@@ -304,9 +432,17 @@ function renderNews() {
   } else if (currentPath.includes('innovation.html')) {
       category = "Innovation";
   } else if (currentPath.includes('sports.html')) {
-      category = "Sport";
-  } else {
-      category = null;  // Otras páginas sin filtrado específico
+      category = "sports";
+  } else if(currentPath.includes('Buisness.html')) {
+      category = "Business" 
+  } 
+  else if(currentPath.includes('culture.html')) {
+    category = "Culture" 
+}
+else if(currentPath.includes('innovation.html')) {
+  category = "Innovation" 
+}else{
+    category = null //paginas sin filtro
   }
 
   // Filtrar artículos solo si hay una categoría definida
@@ -340,15 +476,12 @@ function renderNews() {
   });
 }
 
-// Ejecutar la función al cargar el contenido de la página
+// ejecutar la fun para sacar las noticias
 document.addEventListener('DOMContentLoaded', renderNews);
 
 
 
-
-
-
-// Función para la barra lateral
+//sacar la barra lateral
 const toggleButton = document.querySelector('.menu-toggle');
 const sidebar = document.querySelector('.sidebar');
 function toggleSidebar() {
