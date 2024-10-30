@@ -71,6 +71,7 @@ body {
 }
 
 dialog {
+  margin-top: 10svh;
   background-color: #ffffff;
   border-radius: 4px;
   box-shadow: 0 0 10px #00000061;
@@ -83,6 +84,10 @@ dialog {
 #search-results {
   list-style-type: none;
   padding: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .disabled {
@@ -90,18 +95,27 @@ dialog {
   user-select: none;
 }
 #site-search {
-  border: 2px solid #000;
-  height: 2em;
-  text-indent: 10px;
-  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  height: 2.5em;
+  text-indent: 15px;
+  width: 90%;
+  max-width: 500px;
+  margin-top: 20px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease;
 }
 
 .card {
-  position: relative;
-  box-shadow: 0 0 10px lightgray;
-  border-radius: 2%;
-  overflow: hidden;
-  padding: 10px 10px 10px 0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  
   img {
     width: 80px;
     object-fit: cover;
@@ -241,4 +255,9 @@ a{
 .logoNews{
   display: flex;
   margin-left: 15svh;
+}
+
+.sidebar li{
+  text-decoration: none;
+  list-style: none;
 }

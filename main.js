@@ -1,4 +1,4 @@
-// Definición de <relative-time>
+// relative time
 class RelativeTime extends HTMLElement {
     constructor() {
         super();
@@ -44,7 +44,7 @@ class RelativeTime extends HTMLElement {
 }
 customElements.define('relative-time', RelativeTime);
 
-// Definición de datos de artículos
+// las noticias
 const articles = [
     {
       "id": 1,
@@ -424,7 +424,7 @@ function renderNews() {
       document.querySelector('.item-contenedor3')
   ];
 
-  // Detectar la categoría según la página actual
+  // filtrar por categoria
   let category;
   const currentPath = window.location.pathname;
   if (currentPath.includes('us.html')) {
